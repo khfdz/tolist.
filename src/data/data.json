@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Grocery List",
+        "description": "Buy essential items for the week including fruits, vegetables, and snacks.",
+        "img": "https://via.placeholder.com/150",
+        "link": "",
+        "createdAt": "2024-01-01",
+        "tag": "Shopping"
+    },
+    {
+        "title": "Workout Plan",
+        "description": "Complete the weekly workout plan for better health and fitness.",
+        "img": "https://via.placeholder.com/150",
+        "link": "",
+        "createdAt": "2024-01-02",
+        "tag": "Fitness"
+    },
+    {
+        "title": "Study Schedule",
+        "description": "Prepare a study plan for upcoming exams and assignments.",
+        "img": "https://via.placeholder.com/150",
+        "link": "",
+        "createdAt": "2024-01-03",
+        "tag": "Learning"
+    },
+    {
+        "title": "Project Tasks",
+        "description": "Complete the pending tasks for the ongoing project at work.",
+        "img": "https://via.placeholder.com/150",
+        "link": "",
+        "createdAt": "2024-01-04",
+        "tag": "Work"
+    },
+    {
+        "title": "Meal Prep Ideas",
+        "description": "Plan and prepare meals for the week to save time and money.",
+        "img": "https://via.placeholder.com/150",
+        "link": "",
+        "createdAt": "2024-01-05",
+        "tag": "Food"
+    },
+    {
+        "title": "Vacation Itinerary",
+        "description": "Create an itinerary for the upcoming vacation and plan activities.",
+        "img": "https://via.placeholder.com/150",
+        "link": "",
+        "createdAt": "2024-01-06",
+        "tag": "Travel"
+    }
+]
