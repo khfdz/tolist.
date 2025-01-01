@@ -3,6 +3,7 @@ import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
 import Content1 from "./components/Content1";
 import Content2 from "./components/Content2";
+import AddContent from "./components/AddContent";
 
 function App() {
   const [isSidebarVisible, setSidebarVisible] = useState(false);
@@ -20,6 +21,7 @@ function App() {
     <>
       <Navbar toggleSidebar={toggleSidebar} />
       <Sidebar isVisible={isSidebarVisible} toggleSidebar={toggleSidebar} />
+      <AddContent />
       <div className="flex h-screen">
         <div className="w-1/2 bg-blue-500">
           <Content1 onCardClick={handleCardClick} />

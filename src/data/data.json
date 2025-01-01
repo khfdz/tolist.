@@ -3,7 +3,7 @@
         "title": "Grocery List",
         "description": "Buy essential items for the week including fruits, vegetables, and snacks.",
         "img": "https://via.placeholder.com/150",
-        "link": "",
+        "link": "https://github.com",
         "createdAt": "2024-01-01",
         "tag": "Shopping"
     },

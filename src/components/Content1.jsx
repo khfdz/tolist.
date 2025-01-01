@@ -4,7 +4,6 @@ import data from "../data/data.json"; // Mengimpor file JSON
 const Content1 = ({ onCardClick }) => {
   return (
     <div className="p-4 overflow-y-auto h-full">
-      <h2 className="text-2xl font-bold mb-4">Content 1</h2>
       <div className="space-y-4">
         {data.map((item, index) => (
           <div
@@ -19,6 +18,11 @@ const Content1 = ({ onCardClick }) => {
                 : item.description}
             </p>
             <p className="text-sm text-gray-500 mt-4">{item.createdAt}</p>
+            <div className="flex gap-4">
+            <button className="bg-blue-500 text-white py-2 px-4 rounded-md mt-4">Delete</button>
+            <button className="bg-green-500 text-white py-2 px-4 rounded-md mt-4">Archive</button>
+
+          </div>
           </div>
         ))}
       </div>
